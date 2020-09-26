@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+    <name>JCaption disabler plugin</name>
+    <author>Koren Software</author>
+    <creationDate>September 2020</creationDate>
+    <copyright>Copyright (C) 2020 Koren Software.</copyright>
+    <license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+    <authorEmail>support@koren.ee</authorEmail>
+    <authorUrl>https://www.koren.ee</authorUrl>
+    <version>1.0.0</version>
+    <description>Remove JCaption javascript file and code</description>
+    <files>
+        <filename plugin="captiondisabler">captiondisabler.php</filename>
+    </files>
+</extension>
